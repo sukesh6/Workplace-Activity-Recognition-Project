@@ -23,7 +23,7 @@ if uploaded_file is not None:
     video_path = temp_file.name
 
     # Load the YOLO model
-    model = YOLO(r"C:/Users/sukes/OneDrive/Desktop/360/Project ( Workplace Activity Recognition System)/Yolo/Yolov8l_final/Yolov8l/best (1).pt")
+    model = YOLO(r"best.pt")
 
     # Process the video
     cap = cv2.VideoCapture(video_path)
