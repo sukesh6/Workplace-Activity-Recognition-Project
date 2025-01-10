@@ -18,8 +18,8 @@ def extract_frames(video_path, output_dir, frame_interval=20):
     video.release()
 
 # Input paths
-input_path = "C:/Users/sukes/Downloads/traffic_images.mp4"  # Path to a video file or directory
-frame_directory = "C:/Users/sukes/OneDrive/Desktop/360/project_2"
+input_path = ""  # Path to a video file or directory
+frame_directory = ""
 
 # Check if the input path is a file or a directory
 if os.path.isfile(input_path):  # Single video file
